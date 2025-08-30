@@ -43,9 +43,9 @@ const ContactSection: React.FC = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'salan.bhattarai@example.com',
+      value: 'salanbhattarai25@gmail.com',
       description: 'Send me an email anytime',
-      action: () => window.open('mailto:salan.bhattarai@example.com'),
+      action: () => window.open('mailto:salanbhattarai25@gmail.com'),
       color: 'text-red-600 dark:text-red-400'
     },
     {
@@ -53,7 +53,7 @@ const ContactSection: React.FC = () => {
       title: 'LinkedIn',
       value: 'Connect with me',
       description: 'Professional networking',
-      action: () => window.open('https://linkedin.com/in/your-profile', '_blank'),
+      action: () => window.open('https://www.linkedin.com/in/salan-bhattarai-13800221b/', '_blank'),
       color: 'text-blue-600 dark:text-blue-400'
     },
     {
@@ -61,7 +61,7 @@ const ContactSection: React.FC = () => {
       title: 'GitHub',
       value: 'View my repositories',
       description: 'Check out my code',
-      action: () => window.open('https://github.com/your-username', '_blank'),
+      action: () => window.open('https://github.com/salan223', '_blank'),
       color: 'text-gray-800 dark:text-gray-200'
     }
   ];
@@ -78,7 +78,7 @@ const ContactSection: React.FC = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             I'm passionate about creating innovative solutions and always excited to discuss new opportunities, 
-            collaborate on projects, or simply connect with fellow tech enthusiasts.
+            collaborate on projects. Best way to reach out to me is through email.
           </p>
         </div>
 
