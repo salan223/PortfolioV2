@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = "build"   # or "dist" if you change vite.config.ts to use dist
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# React Router / SPA fallback
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
