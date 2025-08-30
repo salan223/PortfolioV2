@@ -192,7 +192,7 @@ const ContactSection: React.FC = () => {
             </div>
             <h3 className="text-2xl font-semibold mb-4">Ready to Collaborate</h3>
             <p className="text-lg text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Actively seeking full-time opportunities starting Summer 2025. Let's build something amazing together!
+              Actively seeking full-time opportunities starting Summer 2026. Let's build something amazing together!
             </p>
             <div className="flex justify-center">
               <span className="inline-flex items-center px-6 py-3 rounded-full text-base font-medium bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200 border border-green-200 dark:border-green-700">
