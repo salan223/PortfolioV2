@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
         "Successfully demonstrated an interactive FPGA-driven game showcasing hardware logic design"
       ],
       techStack: ["Verilog", "FSM", "MUX", "Counters", "VGA Display", "FPGA"],
-      image: "/images/fpga.webp",
+      image: "/fpga.webp",
       demoUrl: "#",
       githubUrl: "https://github.com/salan223/RockGame_Verilog",
       status: "Completed"
@@ -39,7 +39,7 @@ const Projects: React.FC = () => {
         "Created a collaborative platform enabling users to share insights and engage with fellow movie lovers"
       ],
       techStack: ["React", "Java Spring Boot", "MongoDB", "REST APIs", "Agile", "SDLC"],
-      image: "/images/movie.png",
+      image: "/movie.png",
       demoUrl: "#",
       githubUrl: "https://github.com/salan223/SphereMovie",
       status: "Completed"
@@ -57,7 +57,7 @@ const Projects: React.FC = () => {
         "Demonstrated practical application of embedded systems for sustainable automation"
       ],
       techStack: ["MOSFET Sensor", "Arduino Grove", "Java", "C", "Embedded Systems"],
-      image: "/images/plant.png",
+      image: "/plant.png",
       demoUrl: "https://www.youtube.com/watch?v=uKN1KUkdGWo&ab_channel=Salan",
       githubUrl: "https://docs.google.com/document/d/19hzM1lY3fqlw0qfmif5WewQoTJ4SyoqyF1J535WXHkE/edit?tab=t.0",
       status: "Completed"

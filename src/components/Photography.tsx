@@ -22,7 +22,7 @@ const Photography: React.FC = () => {
       location: "Mustang, Nepal",
       likes: 24,
       views: 156,
-      image: "/images/mountain.jpg"
+      image: "/mountain.jpg"
     },
     {
       id: 2,
@@ -31,7 +31,7 @@ const Photography: React.FC = () => {
       location: "Caledon, ON",
       likes: 18,
       views: 89,
-      image: "/images/forest.jpg"
+      image: "/forest.jpg"
     },
     {
       id: 3,
@@ -40,7 +40,7 @@ const Photography: React.FC = () => {
       location: "Downtown Toronto",
       likes: 32,
       views: 201,
-      image: "/images/cn.jpg"
+      image: "/cn.jpg"
     },
     {
       id: 4,
@@ -49,7 +49,7 @@ const Photography: React.FC = () => {
       location: "York University",
       likes: 45,
       views: 312,
-      image: "/images/berg.jpg"
+      image: "/berg.jpg"
     },
     {
       id: 5,
@@ -58,7 +58,7 @@ const Photography: React.FC = () => {
       location: "York University",
       likes: 28,
       views: 134,
-      image: "/images/york.jpg"
+      image: "/york.jpg"
     },
     {
       id: 6,
@@ -67,7 +67,7 @@ const Photography: React.FC = () => {
       location: "Toronto, ON",
       likes: 52,
       views: 278,
-      image: "/images/weekend.jpg"
+      image: "/weekend.jpg"
     },
     {
       id: 7,
@@ -76,7 +76,7 @@ const Photography: React.FC = () => {
       location: "Vaughan, ON",
       likes: 36,
       views: 167,
-      image: "/images/line.jpg"
+      image: "/line.jpg"
     },
     {
       id: 8,
@@ -85,7 +85,7 @@ const Photography: React.FC = () => {
       location: "Humberwest Condos",
       likes: 29,
       views: 143,
-      image: "/images/city.jpg"
+      image: "/city.jpg"
     }
   ];
 

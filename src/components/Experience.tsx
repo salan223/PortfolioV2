@@ -26,7 +26,7 @@ const Experience: React.FC = () => {
         "Software Engineering",
         "Project Development & Leadership"
       ],
-      logo: "/images/york.jpeg",
+      logo: "/york.jpeg",
       logoPlaceholder: "🎓",
       current: true
     },
@@ -52,7 +52,7 @@ const Experience: React.FC = () => {
         "Technical Analysis",
         "Renewable Energy"
       ],
-      logo: "/images/hydro.png", // Placeholder path for Hydro One logo
+      logo: "/hydro.png", // Placeholder path for Hydro One logo
       logoPlaceholder: "⚡",
       current: true
     },

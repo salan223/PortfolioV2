@@ -121,7 +121,7 @@ const Hero: React.FC = () => {
             <div className="relative group">
               <div className="w-72 h-72 rounded-full overflow-hidden bg-muted flex items-center justify-center relative shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105">
                 <ImageWithFallback
-                  src="/images/salan.jpg"
+                  src="/salan.jpg"
                   alt="Salan Bhattarai"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
