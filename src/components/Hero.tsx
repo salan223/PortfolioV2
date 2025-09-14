@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
   const [isTyping, setIsTyping] = useState(true);
 
   const phrases = [
-    "I am a Computer Engineering Student",
+    "Computer Engineering Student @York U",
     "Prev. Electrical Engineering Support @Hydro One.",
     "Versatile Programming Skills and Hands-on Hardware Experience",
     "Currently in search of New Grad Roles"
@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
       if (displayText.length < currentPhraseText.length) {
         timeout = setTimeout(() => {
           setDisplayText(currentPhraseText.slice(0, displayText.length + 1));
-        }, 100);
+        }, 80);
       } else {
         timeout = setTimeout(() => {
           setIsTyping(false);
@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
       if (displayText.length > 0) {
         timeout = setTimeout(() => {
           setDisplayText(displayText.slice(0, -1));
-        }, 50);
+        }, 30);
       } else {
         setCurrentPhrase((prev) => (prev + 1) % phrases.length);
         setIsTyping(true);
