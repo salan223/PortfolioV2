@@ -61,7 +61,7 @@ const Experience: React.FC = () => {
       company: "Freelance",
       role: "Front End Developer",
       location: "Toronto, ON",
-      period: "Sept 2021 - Present",
+      period: "Sept. 2021 - Aug. 2023",
       mainDescription: "Designing and developing responsive websites as a freelance Front End Developer, delivering clean code and intuitive user experiences for clients.",
       bulletPoints: [
         "Designed and developed websites using HTML5, CSS3, and React.js with frameworks such as Bootstrap",
@@ -78,7 +78,7 @@ const Experience: React.FC = () => {
         "UI/UX Design"
       ],
       logoPlaceholder: "💻",
-      current: true
+      current: false
     }    
   ];
 
