@@ -35,7 +35,7 @@ const Experience: React.FC = () => {
       company: "Hydro One",
       role: "Engineering Intern",
       location: "Toronto, ON",
-      period: "2024 - Present",
+      period: "May 2024 - Sept. 2025",
       mainDescription: "Supporting Ontario’s largest transmission and distribution utility by developing automation tools, dashboards, and outage coordination systems that improve efficiency, transparency, and safety in power system operations.",
       bulletPoints: [
         "Designed and deployed a fully integrated Power App for outage requests and changes, replacing email-based workflows and enabling real-time tracking across 5+ departments with 200+ users",
@@ -54,7 +54,7 @@ const Experience: React.FC = () => {
       ],
       logo: "/hydro.png", // Placeholder path for Hydro One logo
       logoPlaceholder: "⚡",
-      current: true
+      current: false
     },
     {
       id: 3,
