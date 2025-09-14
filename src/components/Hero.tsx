@@ -12,8 +12,9 @@ const Hero: React.FC = () => {
 
   const phrases = [
     "I am a Computer Engineering Student",
+    "Prev. Electrical Engineering Support @Hydro One.",
     "Versatile Programming Skills and Hands-on Hardware Experience",
-    "Currently working at Hydro One to energize Ontario"
+    "Currently in search of New Grad Roles"
   ];
 
   useEffect(() => {
