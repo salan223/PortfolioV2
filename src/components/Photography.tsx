@@ -62,7 +62,7 @@ const Photography: React.FC = () => {
     },
     {
       id: 6,
-      title: "Weekend Concert",
+      title: "Weeknd Concert",
       category: "City",
       location: "Toronto, ON",
       likes: 52,
