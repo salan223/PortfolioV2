@@ -55,30 +55,6 @@ const Experience: React.FC = () => {
       logo: "/hydro.png", // Placeholder path for Hydro One logo
       logoPlaceholder: "⚡",
       current: false
-    },
-    {
-      id: 3,
-      company: "Freelance",
-      role: "Front End Developer",
-      location: "Toronto, ON",
-      period: "Sept. 2021 - Aug. 2023",
-      mainDescription: "Designing and developing responsive websites as a freelance Front End Developer, delivering clean code and intuitive user experiences for clients.",
-      bulletPoints: [
-        "Designed and developed websites using HTML5, CSS3, and React.js with frameworks such as Bootstrap",
-        "Implemented responsive design principles to ensure cross-device compatibility and accessibility",
-        "Enhanced user experience through effective UI/UX design and interactive front-end features",
-        "Collaborated with clients to gather requirements and translate business needs into technical solutions",
-        "Optimized website performance through clean code practices and front-end debugging"
-      ],
-      highlights: [
-        "HTML5",
-        "CSS3",
-        "React.js",
-        "Bootstrap",
-        "UI/UX Design"
-      ],
-      logoPlaceholder: "💻",
-      current: false
     }    
   ];
 
