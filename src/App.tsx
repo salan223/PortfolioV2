@@ -8,6 +8,8 @@ import { Mail, Github, Linkedin, Send } from 'lucide-react';
 import { toast } from 'sonner@2.0.3';
 import { Toaster } from './components/ui/sonner';
 
+import TubesCursorBackground from "./components/TubesCursorBackground";
+
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Tools from './components/Tools';
@@ -15,6 +17,7 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Photography from './components/Photography';
 import BackgroundDots from './components/BackgroundDots';
+import FeaturedMedia from "./components/FeaturedMedia";
 
 const ContactSection: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -210,22 +213,26 @@ const ContactSection: React.FC = () => {
 export default function App() {
   return (
     <div className="min-h-screen bg-background text-foreground relative overflow-x-hidden">
-      {/* Animated Background */}
+      {/* New effect background */}
+      <TubesCursorBackground />
+
+      {/* Your existing background */}
       <BackgroundDots />
-      
+
       {/* Header */}
       <Header />
-      
+
       {/* Main Content */}
       <main className="relative z-10">
         <Hero />
-        <Tools />
         <Experience />
+        <FeaturedMedia />
         <Projects />
+        <Tools />
         <Photography />
         <ContactSection />
       </main>
-      
+
       {/* Footer */}
       <footer className="relative z-10 py-8 px-4 sm:px-6 lg:px-8 border-t border-border bg-background/80 backdrop-blur-sm">
         <div className="max-w-6xl mx-auto text-center">
@@ -234,7 +241,7 @@ export default function App() {
           </p>
         </div>
       </footer>
-      
+
       {/* Toast Notifications */}
       <Toaster />
     </div>
